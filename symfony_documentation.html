@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Symfony Documentation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="container">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="#">Symfony Documentation</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>     -->
+            </ul>
+        </div>  
+    </nav>
+ 
+        <div class="container" id="accordion-style-1">
+            <section>
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="text-green mb-4 text-center">Symfony Documentaion</h1>
+                    </div>
+
+                    <div class="col-12 mx-auto">
+                        <div class="accordion" id="accordionExample">
+                             <!-- Basic Installation -->
+                            <div class="card"> 
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left" type="button" 
+                                            data-toggle="collapse" data-target="#collapseOne" 
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                        <i class="fa fa-plus main"></i>
+                                        <i class="fa fa-angle-double-right mr-3"></i>Basic Installation.
+                                    </button>
+                                </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse show fade" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="col-md-12 col-lg-12 col-sm-12">
+                                            <h5 class="card-title">Composer</h5>
+                                            <p class="card-text">Please use the Button to download and install. <a href="https://getcomposer.org/" class="btn btn-secondary" target="_blank">Click Here</a></p>
+                                            
+                                        </div>
+                                        <div class="clearfix"></div>
+                                        <div  class="col-md-12 col-lg-12 col-sm-12 mt-4">
+                                            <h5 class="card-title">Install Symfony</h5>
+                                            <div class="alert alert-secondary" role="alert">
+                                                Below Command install the Symfony in our system using Composer.<br/>
+                                                <b>Command: composer create-project symfony/website-skeleton my_project_name</b>
+                                            </div>
+                                        
+                                        </div>
+                
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Creating Symfony -->
+                            <div class="card"> 
+                                <div class="card-header" id="headingOne1">
+                                    <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed btn-block text-left" type="button" 
+                                            data-toggle="collapse" data-target="#collapseOne1" 
+                                            aria-expanded="false" aria-controls="collapseOne1">
+                                        <i class="fa fa-plus main"></i>
+                                        <i class="fa fa-angle-double-right mr-3"></i>Create symfony Application.
+                                    </button>
+                                </h5>
+                                    </div>
+                                    <div id="collapseOne1" class="collapse fade" aria-labelledby="headingOne1" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <div  class="col-md-12 col-lg-12 col-sm-12 mt-4">
+                                                <h5 class="card-title">Install Symfony</h5>
+                                                <div class="alert alert-secondary" role="alert">
+                                                    Below Command install the Symfony in our system using Composer.<br/>
+                                                    <b>Command: composer create-project symfony/website-skeleton my_project_name</b>
+                                                </div>
+                                                <ol>
+                                                    
+                                                    <li> After install the Symfony appilcation. we need to add the symfony application in Git hub by using below commands <br/>
+                                                        <div class="alert alert-success" role="alert">
+                                                            Command: git init (it is used to initiate the git repository)
+                                                        </div>
+                                                    </li>
+                    
+                                                    <li> Check the status of Git hub.<br/>
+                                                        <div class="alert alert-success" role="alert">
+                                                            Command: git status
+                                                        </div>
+                                                    </li>
+
+                                                    <li> add the project by using below command in git hub.<br/>
+                                                        <div class="alert alert-success" role="alert">
+                                                            Command: git add .( . stand for every thing need to commit)
+                                                        </div>
+                                                    </li>
+
+                                                    <li> To commit the application use the below command in git hub.<br/>
+                                                        <div class="alert alert-success" role="alert">
+                                                            Command: git commit -m "init" (m stand for message)
+                                                        </div>
+                                                    </li>
+
+                                                    <li> Run the Symfony Application use below command.<br/>
+                                                        <div class="alert alert-success" role="alert">
+                                                            Command: php -S 127.0.0.1:8000 -t public
+                                                        </div>
+                                                    </li>
+
+                                                    <li> List of console command.<br/>
+                                                        <div class="alert alert-success" role="alert">
+                                                            Command:  php bin/console
+                                                        </div>
+                                                    </li>
+
+                                                    <li> Check Router path for symfony application.<br/>
+                                                        <div class="alert alert-success" role="alert">
+                                                            Command:  php bin/console debug:router
+                                                        </div>
+                                                    </li>
+                                                  
+                                                    <li> Add the server namespace default command.<br/>
+                                                        <div class="alert alert-success" role="alert">
+                                                            Command:  composer require server --dev
+                                                        </div>
+                                                    </li>
+
+                                                    
+                                                    
+                                                   
+                                                </ol>
+                
+                                            </div>
+                    
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <!-- Symfony Structure -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                <button class="btn btn-link collapsed btn-block text-left" type="button" 
+                                    data-toggle="collapse" data-target="#collapseTwo" 
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    <i class="fa fa-plus main"></i>
+                                    <i class="fa fa-angle-double-right mr-3"></i>
+                                    Step 1 
+                                </button>
+                                </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse fade" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        
+
+                                        <div class="col-md-12 col-lg-12 col-sm-12">
+                                            <h3>Route the Symfony path to Symfony page</h3>
+                                            <ol>
+                                                <li>Create New ".twig" file inside the template folder(project/templates/filename.html.twig) </li>
+                                                <li>Add the below code in routes.yaml (project/config/routes.yaml) 
+                                                    <div class="alert alert-success" role="alert">
+                                                        filename is hello_page
+                                                        hello_page:
+                                                                path: /
+                                                                controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController::templateAction
+                                                                defaults:
+                                                                    template: 'hello_page.html.twig'
+                                                    </div>
+
+                                                </li>
+
+                                                <li>Run the the command to check the Router is set or not line. 
+                                                    <div class="alert alert-success" role="alert">
+                                                        php bin/console debug:router
+                                                    </div>
+
+                                                </li>
+                                                
+                                            </ol>  
+                                                
+                                        </div>
+                                        
+
+
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                             <!-- Symfony Structure/ -->
+
+                             
+
+                            
+                           
+                        </div>
+                        <!-- Accordion close/ -->
+                    </div>	
+
+                </div>
+            </section>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+         <!-- accordion /-->
+    </div>  
+      <!-- Container /-->
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
